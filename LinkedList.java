@@ -17,6 +17,7 @@ class LinkedList{
 
 		if(head == null){
 			head = tmp;
+			return;
 		}
 
 		LLNode ptr = head;
